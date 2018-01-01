@@ -7,11 +7,16 @@
       <title>Samuel Eshun | About</title>
       
       <script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/9014afdb/cloudflare-static/rocket.min.js"></script>
-      <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="https://cdn.pride.codes/css/bar_body.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Karla|Catamaran:500,700,800|Open+Sans:400,700">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Karla|Catamaran:500,700,800|Open+Sans:400,700">
+          
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css">
       <script async data-rocketsrc="https://www.googletagmanager.com/gtag/js?id=UA-106457303-2" type="text/rocketscript"></script>
+      <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=swift&amp;skin=Desert"></script>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+
+
       <script type="text/rocketscript">
          window.dataLayer = window.dataLayer || [];
          function gtag() { dataLayer.push(arguments); }
@@ -22,32 +27,32 @@
    <body>
       <div class="page">
          <div id="navigation-palette">
-            <h1 class="title">Samuel Eshun</h1>
+            <h1 class="title animated bounceInDown">Samuel Eshun</h1>
             <div class="tab-bar" role="Tablist">
                <div class="tab selected" role="tab" aria-selected="true">
-                  <a href="index.html" class="no-border">About</a>
+                  <a href="index.html" class="no-border">About Me</a>
                </div>
-               <div class="tab unselected" role="tab" aria-selected="false">
-                  <a href="/projects" class="no-border">Projects</a>
-               </div>
-               <div class="tab unselected" role="tab" aria-selected="false">
-                  <a href="/contact" class="no-border">Contact Me</a>
-               </div>
+<!--               <div class="tab unselected" role="tab" aria-selected="false">-->
+<!--                  <a href="/projects" class="no-border">Projects</a>-->
+<!--               </div>-->
+<!--               <div class="tab unselected" role="tab" aria-selected="false">-->
+<!--                  <a href="/contact" class="no-border">Contact Me</a>-->
+<!--               </div>-->
                <div class="separator"></div>
 			</div>
 
          </div>
-         <div class="content">
-            <p>Hi, I’m Samuel 👋🏻. Software Developer living in Accra, Ghana.</p>
+         <div class="content animated bounceIn">
+            <p>Hi, I’m Sam 👋🏻. Software Developer living in Tema and Accra, Ghana.</p>
             <p>When I’m not developing web and GSM apps at <a href="https://www.mtn.com.gh" aria-label="MTN Ghana">MTN House</a>, I build apps for the iOS Platform.
 			   I am passionate about soccer, music and science. 
-            <p>Currently I am available for freelance work, but also I'd love to get coffee and get to know you, so don’t hesitate to get in touch.
+            <p>Currently I am available for freelance work, but I'd also love to get coffee and get to know you, so don’t hesitate to get in touch.
 			</p>
             </p>
-            <p>You can read my CV <a href="cv/">here</a>.
+            <p> <!-- You can read my CV <a href="cv/">here</a>.-->
                My open-source work can be found on <a href="https://github.com/kwakueshun">GitHub</a>.
             </p>
-            <h2 id="featured-work">Tech Stack</h2>
+            <h2 id="featured-work" style="color: #0185BD">Tech Stack</h2>
             <ul>
                <li>
                   <p>Objective-C &amp; Swift : iOS Applications for iPhones and iPads</p>
@@ -59,8 +64,26 @@
 					<p>Python : Web Applications &amp; REST APIs</p>
 				</li>
 			</ul>
+            
+            <h2 style="color: #0185BD">Fun Facts</h4>
+            <ul>
+                <li>I love Swift &amp; Python so much and even see them in my sleep.</li>
+                <li>I am pretty fascinated by how AR works and plan on studying it</li>
+                <li>I am very active on Slack and do contribute a lot</li>
+            </ul>
+            
+            <pre class="prettyprint">
+            var interests = [];
+            
+            /* After a few days of debugging loads of errors */
+            interests.push("grab a beer right now!");
+            
+            console.log("You should totally " + interests[0]);
+            </pre>
 
-			<h2>Interested in doing a project together?</h2>
+
+
+			<h2 style="color: #0185BD">Interested in doing a project together?</h2>
 			<p style="font-size: 0.75em;line-height: 0.75em;margin-bottom: 0.75em;">
 				<a href="mailto:kwaku.eshun16@gmail.com" class="cta-button">Email Me <span class="arrow-right">&#8594;</span></a>
 			</p>
@@ -84,12 +107,12 @@
                   <i class="icon-link fab fa-twitter fa-lg"></i> <span class="icon-link">Twitter</span>
                   </a>
                   <span class="footer-separator">•</span>
-                  <a class="icon-link" href="/contact">
+                  <a class="icon-link" href="mailto:kwaku.eshun16@gmail.com">
                   <i class="icon-link fas fa-envelope fa-lg"></i> <span class="icon-link">Contact Me</span>
                   </a>
                </p>
             </div>
-            <p class="footnote">Copyright © 2017 Samuel Eshun. All rights reserved.</p>
+            <p class="footnote">Copyright © 2018 Samuel Eshun. All rights reserved.</p>
          </footer>
       </div>
    </body>
