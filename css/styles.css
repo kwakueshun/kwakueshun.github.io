@@ -89,7 +89,7 @@ span.footer-separator {
 pre, code {
     font-family: 'SF Mono', Monaco, Menlo, Consolas, monospace;
     line-height: 1.5;
-    font-size: 80%;
+    font-size: 70%;
 }
 
 @media screen and (min-width: 0px) {
