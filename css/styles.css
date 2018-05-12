@@ -238,16 +238,16 @@ img.banner {
 	transition: all .25s ease; }
 	.cta-button:hover {
 	  transform: scale(1.025);
-	  transition: all .25s ease; 
+	  transition: all .25s ease;
 	}
 
 	.arrow-right, .arrow-left {
 		display: inline-block;
 		transition: all 0.25s ease; }
-	  
+
 	  .arrow-right {
 		padding-left: 10px; }
-	  
+
 	  .arrow-left {
 		padding-right: 10px; }
 
@@ -271,3 +271,5 @@ footer, .cta-section {
 	text-align: center;
 	padding-top: 3em;
 	padding-bottom: 4em; }
+
+  
