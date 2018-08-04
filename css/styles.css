@@ -76,11 +76,11 @@ span.footer-separator {
 }
 .tab.selected {
     padding-bottom: 3px;
-    border-bottom: 3px solid #90CAF9;
+    border-bottom: 3px solid teal;
 }
 .tab.unselected {
     padding-bottom: 3px;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: none;
 }
 .tab-bar .separator {
     border-bottom: 1px solid #EEEEEE;
@@ -90,6 +90,21 @@ pre, code {
     font-family: 'SF Mono', Monaco, Menlo, Consolas, monospace;
     line-height: 1.5;
     font-size: 70%;
+}
+
+.portfolio-row {
+  margin-top: 100px;
+}
+
+.top-row {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.app-icon {
+  width: 90px;
+  display: inline;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 0px) {
@@ -270,6 +285,11 @@ padding-right: 2em; }
 footer, .cta-section {
 	text-align: center;
 	padding-top: 3em;
-	padding-bottom: 4em; }
+  padding-bottom: 4em; }
+
+  img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
 
